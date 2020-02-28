@@ -3,8 +3,10 @@
 
 Got max-47 books on D. It was quite tough. 
 Solution is this
+
 🔘 first of all add all libs
 
+### REPEAT
 ➊ Remove some libs - first those removing which doesn't remove any books, then those that are only required for one book
 ➋ Put libs that can yield +books back on, prioritizing those libs that add most books.
 
