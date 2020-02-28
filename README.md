@@ -13,7 +13,7 @@ Solution is this
 
 __I do removal in a wise greedy way with heuristic that prioritizes removal of libs that will disable least number of other libs from being removed.__
 
-__Some randomization is also added to greediness.__
+__Some randomization is also added to greediness.__ For example when adding books, if two books can yield same amount of +unique_books we can randomly choose which one will be added first.
 
 I repeat that for many many iterations and slowly the worst libs sort of fall off while the best ones crystallize by becoming too key to be peeled off. They are key to more books than those which we peel off.
 So for me the amount of libs that provide any books went down from >15500 to 15047.
