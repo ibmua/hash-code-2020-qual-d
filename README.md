@@ -8,6 +8,7 @@ Solution is this
 
 ### REPEAT
 ➊ Remove some libs - first those removing which doesn't remove any books, then those that are only required for one book
+
 ➋ Put libs that can yield +books back on, prioritizing those libs that add most books.
 
 __I do removal in a wise greedy way with heuristic that prioritizes removal of libs that will disable least number of other libs from being removed.__
