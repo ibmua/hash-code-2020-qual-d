@@ -1,13 +1,12 @@
 My Algorithm to solve test D
-SPOILER ALERT
+⚠ SPOILER ALERT
 
 Got max-47 books on D. It was quite tough. 
 Solution is this
-* first add all libs
+🔘 first of all add all libs
 
-
-1. Remove some libs - first those removing which doesn't remove any books, then those that are only required for one book
-2. Put libs that can yield +books back on, prioritizing those libs that add most books.
+➊ Remove some libs - first those removing which doesn't remove any books, then those that are only required for one book
+➋ Put libs that can yield +books back on, prioritizing those libs that add most books.
 ** I do removal in a wise greedy way with heuristic that prioritizes removal of libs that will disable least number of other libs from being removed.
 ** Some randomization is also added to greediness.
 
