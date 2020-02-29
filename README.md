@@ -17,5 +17,4 @@ I repeat that for many many iterations and slowly the worst libs sort of fall of
 So for me the amount of libs that provide any books went down from >15500 to 15047.
 Then I just peel off the libs that provide me with only a single unique book and put them at the end of the output sequence, while the rest is put at the beginning.
 
-*D – tough choices
-5,105,945 points*
+I think this is a great example of __antifrigility__.
