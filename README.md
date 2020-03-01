@@ -18,3 +18,22 @@ So for me the amount of libs that provide any books went down from >15500 to 150
 Then I just peel off the libs that provide me with only a single unique book and put them at the end of the output sequence, while the rest is put at the beginning.
 
 I think this is a great example of __antifrigility__.
+
+
+I do provide some code you can launch with
+
+`
+g++ d.cpp -Ofast -std=c++17  -I/usr/include/python2.7 -lpython2.7 -lboost_system -lboost_filesystem -o executable &&
+./executable d_tough_choices.txt
+`
+
+on Linux, __but I didn't bother preparing it__, so you'll at least need to remove plotting and change where output files are located. And you'll probably need to install some stuff. 
+
+```
+sudo apt-get install libboost-all-dev  python-matplotlib  python-numpy  python2.7-dev
+sudo mount -t tmpfs -o size=18192M tmpfs /ramdisk
+echo "backend: Agg" > ~/.config/matplotlib/matplotlibrc
+```
+
+This may or may not be sufficient. I didn't bother testing on a fresh setup, sorry.
+The main point is the algorithm - I recommend you just try writing it yourself. BTW, simple Python solution is probably sufficient for getting to a decent score (like -100 books) in a reasonable time.
