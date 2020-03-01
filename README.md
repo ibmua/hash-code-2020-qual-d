@@ -1,4 +1,4 @@
-# My Algorithm to solve test D of [Hash Code](https://codingcompetitions.withgoogle.com/hashcode) 2020 qualification round
+# My Algorithm to solve test D of [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode) 2020 qualification round
 ⚠ SPOILER ALERT
 
 Got max-25 books on D. It was quite tough. 
