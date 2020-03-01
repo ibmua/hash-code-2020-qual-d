@@ -17,7 +17,8 @@ I repeat that for many many iterations and slowly the worst libs sort of fall of
 So for me the amount of libs that provide any books went down from >15500 to 15025.
 Then I just peel off the libs that provide me with only a single unique book and put them at the end of the output sequence, while the rest is put at the beginning.
 
-I think this is a great example of __antifrigility__.
+I think this is a great example of __antifrigility__. The most important pieces fall into place eventually and stick there. While the pulp falls off.
+
 
 
 I do provide some code you can launch with
