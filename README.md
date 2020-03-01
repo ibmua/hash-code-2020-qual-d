@@ -37,4 +37,4 @@ echo "backend: Agg" > ~/.config/matplotlib/matplotlibrc
 ```
 
 This may or may not be sufficient. I didn't bother testing on a fresh setup, sorry.
-The main point is the algorithm - I recommend you just try writing it yourself. BTW, simple Python solution is probably sufficient for getting to a decent score (like -100 books) in a reasonable time.
+The main point is the algorithm - I recommend you just try writing it yourself. BTW, simple Python solution is probably sufficient for getting to a decent score (like -100 books) in reasonable time.
