@@ -5,7 +5,7 @@ Got max-25 books on D. It was quite tough.
 Solution is this
 
 ### REPEAT
-➊ Put libs that can yield +books back on, prioritizing those libs that add most books.
+➊ Put libs that can yield +books (back) on, prioritizing those libs that add most books.
 
 ➋ Remove some libs - first those removing which doesn't remove any books, then those that are only required for 1 book, then 2.
 
