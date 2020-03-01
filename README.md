@@ -19,7 +19,7 @@ Then I just peel off the libs that provide me with only a single unique book and
 
 I think this is a great example of __antifrigility__. The most important pieces fall into place eventually and stick there. While the pulp falls off.
 
-
+-----------------
 
 I do provide some code you can launch with
 
